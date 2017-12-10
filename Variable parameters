@@ -1,0 +1,8 @@
+def example (*input)
+     puts"Numner of parameters#{input.length}"
+     for i in 0...input.length
+         puts "The parameters #{input [i]}"
+     end
+end
+example "Mahi","36","B.com"
+example "Nivas","25"
