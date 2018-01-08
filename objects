@@ -1,0 +1,16 @@
+class Rect
+   def initialize(w,h)               # initialize is the constructor method in ruby
+      @length , @breadth = w, h
+   end
+
+   def printArea
+      @length*@breadth
+   end
+end                                  #class ends
+
+# create an object
+rect = Rect.new(10, 20)
+
+x = box.printArea()
+
+puts "Area of the box is : #{x}"
